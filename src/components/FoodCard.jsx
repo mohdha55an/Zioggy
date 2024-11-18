@@ -7,11 +7,11 @@ const FoodCard = ({ id, name, price, desc, img, rating, handleToast }) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="font-bold w-[210px] bg-white p-5 flex flex-col rounded-lg gap-2">
+    <div className="font-bold w-[250px] bg-white p-5 flex flex-col rounded-lg gap-2">
       <img
         src={img}
         alt=""
-        className="w-auto h-[110px]  hover:scale-110 cursor-grab transition-all duration-500 ease-in-out "
+        className="w-auto h-[130px]  hover:scale-110 cursor-grab transition-all duration-500 ease-in-out "
       />
       <div className="text-sm flex justify-between">
         <h2>{name}</h2>
